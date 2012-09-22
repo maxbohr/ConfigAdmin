@@ -24,10 +24,10 @@ A:  Follow the steps :
 6.	Load config_admin_codes at the top of controller. Read it in any of action wherever you want to use configuration file.
 
 Ex.
+
         <?php
             App::uses('AppController', 'Controller');
             Configure::load('config_admin_codes');  //Loding config file
-
             class ContactsController extends AppController {
             	public function index() {
                     $this->Contact->recursive = 0;
@@ -37,5 +37,6 @@ Ex.
                     $this->set($codes);  //setting config values to view
                 }
             }
-            
+        ?>
+
 For more detailed example please download our demo.(Under Construction...)
