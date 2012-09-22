@@ -26,7 +26,6 @@ class SettingsController extends ConfigAdminAppController {
                 $this->Session->setFlash("Settings Updated for $field_name");
             }
         }
-        $this->set(compact('field_readonly'));
     }
 
 }
