@@ -4,8 +4,8 @@ ConfigAdmin
 Plugin For Cakephp
 ====================
 
-Q.  What is ConfigAdmin Plug-in?
-A:      ConfigAdmin Pulgin is management of custom configuration file.
+Q.  What is ConfigAdmin Plug-in?<br/>
+A:  ConfigAdmin Pulgin is management of custom configuration file.
     We created this plugin on top of available functionality in cakephp 2.1 Ref:
     http://book.cakephp.org/2.0/en/development/configuration.html#reading-and-writing-configuration-files
     To use this plugin you must have cakephp version 2.1+
